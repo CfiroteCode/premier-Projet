@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="index.html">
+        <h2>Index</h2>
+    </a>
+    <a href="02.html">
+        <h3>page 2</h3>
+    </a>
+
+    <form action="formulaire.html" method="GET">
+        <div>
+            <input type="radio" name="genre">
+            <label for="genre">Monsieur</label>
+            <input type="radio" name="genre">
+            <label for="genre">Madame</label>
+        </div>
+        <div>
+            <label for="prenom">Prenom:</label>
+            <input type="text" name="prenom" placeholder="Kevin">
+        </div>
+        <div>
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <input type="checkbox" name="newletter">
+            <label for="newletter">Newletter</label>
+        </div>
+        <div>
+            <input type="checkbox" name="CGV">
+            <label for="CGV">CGV</label>
+        </div>
+        <div>
+            <label for="pays">Pays:</label>
+            <select name="pays">
+                <option value="france">France</option>
+                <option value="russie">Russie</option>
+                <option value="americain">Americain</option>
+            </select>
+        </div>
+        <div>
+                <label for="date">Naissance:</label>
+                <input type="date" name="naissance">
+            </div>
+            <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="raconte ta vie..."></textarea>
+                </div>
+        <button type="submit">Valider</button>
+        <input type="button" value="Valider input">
+    </form>
+</body>
+
+</html>
